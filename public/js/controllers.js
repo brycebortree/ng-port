@@ -1,5 +1,5 @@
 angular.module('portCTRLS', ['portSERVICES'])
 
-.controller('CTRLS', function($scope){
+.controller('portCTRLS', function($scope){
   $scope.in = "yes";
 })
