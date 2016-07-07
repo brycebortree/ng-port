@@ -1,0 +1,275 @@
+body{
+  height:100% !important;
+  width:100% !important; 
+  background-color: #E6EAE9;
+}
+
+.container {
+  width: 100% !important;
+}
+
+hr {
+  color: #004000;
+  color: #979797;
+  background-color: #004000;
+}
+
+#pullquote {
+  font-size: 40px;
+  font-weight: 600;
+  font-style: italic;
+  font-family: 'Cormorant', serif;
+}
+
+.bigboy {
+  font-size: 50px;
+  font-family: 'Cormorant', serif;
+  font-weight: 500;
+/*  color: #979797;*/
+  color: #004000;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+p, ul li {
+  font-size:20px;
+  font-family: 'Maitree', sans-serif;
+  font-weight: 400;
+}
+
+
+a:hover {
+  color: royalblue;
+}
+
+
+a:visited {
+  color: skyblue;
+}
+
+.bold {
+  font-weight: 600;
+  color: #004000;
+  font-family: 'Cormorant', serif;
+  font-size: 24px;
+}
+
+/*MENU*/
+
+.top-bar-right .menu {
+  background-color: rgba(0,0,0,0);
+  position: absolute;
+  right: 0;
+}
+
+#logo {
+  height: 35px;
+}
+
+.navlink{
+  display: inline;
+  margin-top: 22px;
+  padding: 20px;
+  color: skyblue;
+}
+
+.navlink:hover {
+  color: #258dad;
+}
+
+/*navbar adapted from codepen*/
+.top-bar {
+  min-height: 60px;
+  background-color: rgba(0,0,0,.4);
+  width: 100%;
+  margin-top: 0;
+}
+
+.top-bar-right a {
+  color: skyblue !important;
+  font-size: 18px;
+  padding-bottom: 20px !important;
+  padding-top: 20px !important;
+  transition: all 0.3s ease;
+}
+
+.top-bar-left {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.topbar #logo{
+  height: 50px;
+  transition: all 0.3s ease;
+  padding-bottom: 10px;
+}
+
+top-bar.shrink {
+  min-height: 35px;
+}
+
+top-bar.shrink #logo{
+  height: 30px;
+}
+
+top-bar.shrink a {
+  font-size: 15px;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+}
+
+.button {
+  background-color: skyblue;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Josefin Sans', serif;
+  font-weight: bold;
+}
+
+div.center {
+  width: 100%;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.project {
+  margin-top: 50px;
+  margin-bottom: 50px; 
+}
+
+/*about*/
+
+#aboutpic {
+  border-radius: 100px;
+  max-height: 300px;
+}
+
+/*skills*/
+
+#skills{
+  /*background-image: url('../../assets/macbook.jpg');*/
+  background-attachment: fixed;
+  color: black;
+}
+
+.skill-list {
+  line-height: 4em;
+}
+
+.skill-list li {
+  vertical-align: middle;
+}
+
+i.fa {
+  color: #979797;
+}
+
+.gitlink {
+  font-size: 20px !important;
+  color: white !important;
+}
+
+/*projects*/
+.skyblue {
+  background-color: skyblue;
+}
+
+a.button.round{
+  color: white;
+}
+
+  /*parallax*/
+.bcg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 400px;
+  }
+
+section.pic {
+  height: 400px !important;
+}
+
+  /*actual pics*/
+.writetime .bcg {background-image:url('../assets/Writetime.png')}
+.busybee .bcg {background-image:url('../assets/busy-Bee3.png')}
+.behindthe .bcg {background-image:url('../assets/behindthe.png')}
+.artr .bcg {background-image:url('../assets/artrstatic.png')}
+
+
+
+.projlink {
+  font-size: 30px;
+}
+
+/*experience*/
+.bold {
+  font-weight: bold;
+}
+
+.right {
+  float: right;
+}
+
+/*contact*/
+
+.contact-love{
+  margin-top: 25px;
+}
+
+.contacticon {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: skyblue !important;
+}
+
+.contacticon::before {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.contacticon:hover {
+  color: #258dad;
+}
+
+a i { font-size: 18px; }
+
+/*preventing flash of unstyled content*/
+
+@media screen and (min-width: 40em) {
+  .no-js .top-bar {
+    display: block;
+  }
+
+  .no-js .title-bar {
+    display: none;
+  }
+
+/*footer*/
+
+#footer {
+  background-color: rgba(0,0,0,.4);
+  min-height: 50px;
+  position: static;
+  bottom:0;
+  margin-top: 50px;
+}
+
+#footer p {
+  color: black;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+#footer a {
+  color: skyblue;
+}
+
