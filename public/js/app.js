@@ -34,6 +34,11 @@ app.config(['$stateProvider',
     templateUrl: 'views/resume.html',
     controller: 'ResumeCtrl'
   })
+  .state('writing', {
+    url: '/writing',
+    templateUrl: 'views/writing.html',
+    controller: 'WriteCtrl'
+  })
 
   $locationProvider.html5Mode(false);
 }]);

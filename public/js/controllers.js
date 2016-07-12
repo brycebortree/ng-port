@@ -10,6 +10,8 @@ app.controller('PortfolioCtrl', function($scope){
 })
 app.controller('ResumeCtrl', function($scope){
 })
+app.controller('WriteCtrl', function($scope){
+})
 
 
   

@@ -2,14 +2,31 @@ body{
   height:100% !important;
   width:100% !important; 
   background-color: #E6EAE9;
+  overflow-x: hidden;
+
 }
 
+.bigboy {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  color: #004000;
+  margin: 20px;
+}
+
+.emphatic{
+  font-family: 'Crimson Text', serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+p, li {
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+  line-height: 1.5em;
+}
 
 /*MENU*/
-
- body {
-    overflow-x: hidden;
- }
 
 /* Toggle Styles */
 
@@ -69,8 +86,8 @@ body{
 .sidebar-nav li {
   text-indent: 20px;
   line-height: 40px;
-  margin: auto;
-  position: relative;
+  text-align: center;
+  margin-top: 20%;
 }
 
 .sidebar-nav li a {
@@ -207,27 +224,6 @@ i.fa {
 a.button.round{
   color: white;
 }
-
-  /*parallax*/
-.bcg {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 400px;
-  }
-
-section.pic {
-  height: 400px !important;
-}
-
-  /*actual pics*/
-.writetime .bcg {background-image:url('../assets/Writetime.png')}
-.busybee .bcg {background-image:url('../assets/busy-Bee3.png')}
-.behindthe .bcg {background-image:url('../assets/behindthe.png')}
-.artr .bcg {background-image:url('../assets/artrstatic.png')}
-
-
 
 .projlink {
   font-size: 30px;
