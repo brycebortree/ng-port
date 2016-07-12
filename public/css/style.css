@@ -106,7 +106,15 @@ body{
   background: none;
 }
 
+#menu-toggle {
+  display: inline-block;
+}
+
 @media(min-width:768px) {
+  #menu-toggle {
+    display: none;
+  }
+
   #wrapper {
     padding-left: 250px;
   }
