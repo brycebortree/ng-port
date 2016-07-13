@@ -12,6 +12,7 @@ body{
   font-weight: 200;
   color: dimgray;
   margin: 20px;
+  padding-bottom: 50px;
 }
 
 .emphatic{
@@ -218,6 +219,9 @@ i.fa {
   color: #004000 !important;
 }
 
+.btn-default {
+  background-color: #d2d2d2;
+}
 /*projects*/
 .skyblue {
   background-color: skyblue;
