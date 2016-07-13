@@ -20,7 +20,7 @@ hr{
 
 .emphatic{
   font-family: 'Raleway', serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 200;
   letter-spacing: 2px;
   padding: 15px;
@@ -197,6 +197,7 @@ ul{
 .logo{
   max-width: 100%;
   margin: 0 auto;
+  margin: 50px;
 }
 
 /*about*/
