@@ -8,7 +8,7 @@ body{
 
 .bigboy {
   font-family: 'Raleway', sans-serif;
-  font-size: 50px;
+  font-size: 75px;
   font-weight: 200;
   color: dimgray;
   padding-bottom: 50px;
@@ -16,7 +16,7 @@ body{
 
 .emphatic{
   font-family: 'Raleway', serif;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 200;
   letter-spacing: 2px;
   padding: 15px;
@@ -188,11 +188,11 @@ ul{
   margin-bottom: 50px; 
 }
 
+
 /*about*/
 
-#aboutpic {
-  border-radius: 100px;
-  max-height: 300px;
+.talkbig {
+  font-size: 25px;
 }
 
 /*skills*/
@@ -259,6 +259,10 @@ a.button.round{
 
 /*contact*/
 
+#aboutpic {
+  max-height: 300px;
+}
+
 .contact-love{
   margin-top: 25px;
 }
@@ -290,25 +294,3 @@ a i { font-size: 18px; }
   .no-js .title-bar {
     display: none;
   }
-
-/*footer*/
-
-#footer {
-  background-color: rgba(0,0,0,.4);
-  min-height: 50px;
-  position: static;
-  bottom:0;
-  margin-top: 50px;
-}
-
-#footer p {
-  color: black;
-  margin-top: 10px;
-  text-align: center;
-  font-size: 15px;
-}
-
-#footer a {
-  color: skyblue;
-}
-
