@@ -8,9 +8,9 @@ body{
 
 .bigboy {
   font-family: 'Raleway', sans-serif;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 200;
-  color: #004000;
+  color: dimgray;
   margin: 20px;
 }
 
@@ -85,7 +85,7 @@ p, li {
 
 .sidebar-nav li {
   text-indent: 20px;
-  line-height: 40px;
+  line-height: 75px;
   text-align: center;
   margin-top: 20%;
 }
@@ -125,6 +125,8 @@ p, li {
 
 #menu-toggle {
   display: inline-block;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 @media(min-width:768px) {
@@ -213,7 +215,7 @@ i.fa {
 
 .gitlink {
   font-size: 20px !important;
-  color: white !important;
+  color: #004000 !important;
 }
 
 /*projects*/
@@ -225,8 +227,20 @@ a.button.round{
   color: white;
 }
 
-.projlink {
+.projlink, .projlink a {
   font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: #004000;
+}
+
+.projlink a:hover {
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.projimage {
+  max-width: 100%;
 }
 
 /*experience*/
