@@ -195,7 +195,7 @@ ul{
   font-size: 25px;
 }
 
-/*skills*/
+/*resume */
 
 #skills{
   /*background-image: url('../../assets/macbook.jpg');*/
@@ -223,6 +223,11 @@ i.fa {
 .btn-default {
   background-color: #d2d2d2;
 }
+
+#resumebtn {
+  color: black !important;
+}
+
 /*projects*/
 .skyblue {
   background-color: skyblue;
