@@ -17,9 +17,11 @@ body{
 }
 
 .emphatic{
-  font-family: 'Crimson Text', serif;
-  font-size: 20px;
-  font-weight: 700;
+  font-family: 'Raleway', serif;
+  font-size: 25px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  padding: 15px;
 }
 
 p, li {
@@ -266,7 +268,7 @@ a.button.round{
 .contacticon {
   margin-top: 25px;
   margin-bottom: 25px;
-  color: skyblue !important;
+  color: black;
 }
 
 .contacticon::before {
@@ -275,7 +277,7 @@ a.button.round{
 }
 
 .contacticon:hover {
-  color: #258dad;
+  color: dimgrey;
 }
 
 a i { font-size: 18px; }
