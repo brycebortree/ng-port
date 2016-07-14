@@ -1,6 +1,6 @@
 <h1>Angular Portfolio</h1>
 
-<img alt="bryce bortree's portfolio site" src="/public/assets/biglogoblack.png">
+<img alt="bryce bortree's portfolio site" src="/public/assets/bortreeport.png">
 
 
 <p>I rebuilt my portfolio website using Angular to better show off my SPA abilities. I created a clean but not bland design with simple FontAwesome icons and a clean lefthand menu panel that toggles on small devices.</p>
