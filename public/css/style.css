@@ -197,13 +197,13 @@ ul{
 .logo{
   max-width: 100%;
   margin: 0 auto;
-  margin: 50px;
+  margin-top: 50px;
 }
 
 /*about*/
 
 .talkbig {
-  font-size: 25px;
+  font-size: 50px;
 }
 
 /*resume */
