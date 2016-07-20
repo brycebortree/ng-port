@@ -39,6 +39,22 @@ app.config(['$stateProvider',
     templateUrl: 'views/writing.html',
     controller: 'WriteCtrl'
   })
+  .state('writetime', {
+    url: '/writetime',
+    templateUrl: 'views/portfolio/writetime.html',
+  })  
+  .state('behind', {
+    url: '/behind',
+    templateUrl: 'views/portfolio/behind.html',
+  })  
+  .state('artr', {
+    url: '/artr',
+    templateUrl: 'views/portfolio/artr.html',
+  })  
+  .state('sharkfile', {
+    url: '/sharkfile',
+    templateUrl: 'views/portfolio/sharkfile.html',
+  })
 
   $locationProvider.html5Mode(true);
 }]);
