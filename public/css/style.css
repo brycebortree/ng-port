@@ -329,6 +329,9 @@ a i { font-size: 18px; }
 
 .inputButton {
   margin: 20px;
+  padding: 12px 20px;
+  color: dimgray;
+  
 }
 
 .inputMsg {
