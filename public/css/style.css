@@ -318,6 +318,30 @@ a.button.round{
 
 a i { font-size: 18px; }
 
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid gray;
+  background-color: #E6EAE9;
+  margin: 20px;
+  padding: 12px 20px;
+}
+
+.inputButton {
+  margin: 20px;
+}
+
+.inputMsg {
+  height: 100px;
+  width: 100%;
+  background-color: #E6EAE9;
+  border: none;
+  border-bottom: 2px solid gray;
+  margin: 20px;
+  padding: 12px 20px;
+
+}
+
 /*preventing flash of unstyled content*/
 
 @media screen and (min-width: 40em) {
