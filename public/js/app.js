@@ -59,6 +59,10 @@ app.config(['$stateProvider',
     url: '/sharkfile',
     templateUrl: 'views/portfolio/sharkfile.html',
   })
+  .state('port', {
+    url: '/port',
+    templateUrl: 'views/portfolio/port.html',
+  })
 
   $locationProvider.html5Mode(true);
 }]);
