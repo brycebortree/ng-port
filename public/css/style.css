@@ -267,6 +267,11 @@ a:hover {
   max-width: 100%;
 }
 
+.padded {
+  margin: 15px;
+  padding: 10px;
+}
+
 /*resume*/
 
 .resumebuttons {
