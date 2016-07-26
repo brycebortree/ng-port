@@ -51,6 +51,10 @@ app.config(['$stateProvider',
     url: '/artr',
     templateUrl: 'views/portfolio/artr.html',
   })  
+  .state('dirtymoonpress', {
+    url: '/dirtymoonpress',
+    templateUrl: 'views/portfolio/dirtymoonpress.html',
+  })
   .state('sharkfile', {
     url: '/sharkfile',
     templateUrl: 'views/portfolio/sharkfile.html',
