@@ -194,10 +194,11 @@ ul{
 
 /*home*/
 
+
+
 .logo{
-  max-width: 100%;
-  margin: 0 auto;
   margin-top: 50px;
+  text-align: center;
 }
 
 /*about*/
