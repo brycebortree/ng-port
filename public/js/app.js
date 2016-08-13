@@ -63,6 +63,10 @@ app.config(['$stateProvider',
     url: '/port',
     templateUrl: 'views/portfolio/port.html',
   })
+  .state('ideas', {
+    url: '/ideas',
+    templateUrl: 'views/ideas.html',
+  })
 
   $locationProvider.html5Mode(true);
 }]);
