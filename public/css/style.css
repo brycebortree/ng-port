@@ -292,6 +292,11 @@ a:hover {
   color: #E6EAE9;
 }
 
+.btn-green:hover{
+  background-color: #004000;
+  color: #E6EAE9;
+}
+
 #fa-eye{ 
   color: #E6EAE9 !important; 
 }
