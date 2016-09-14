@@ -69,7 +69,7 @@ app.config(['$stateProvider',
   })
   .state('lucky', {
     url: '/lucky',
-    templateUrl: 'views/lucky.html',
+    templateUrl: 'views/portfolio/lucky.html',
   })
 
 
