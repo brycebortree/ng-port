@@ -1,4 +1,4 @@
-![brycebortree.com](./public/assets/bortreeport.png.jpg?raw=true "brycebortree.com")
+![brycebortree.com](/public/assets/bortreeport.png.jpg?raw=true "brycebortree.com")
 
 # Angular Portfolio
 
