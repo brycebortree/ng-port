@@ -1,10 +1,21 @@
-<h1>Angular Portfolio</h1>
+![brycebortree.com](./public/assets/bortreeport.png.jpg?raw=true "brycebortree.com")
 
-<img alt="bryce bortree's portfolio site" src="/public/assets/bortreeport.png">
+# Angular Portfolio
 
+A portfolio website that uses Angular to create a mobile friendly website showcasing the web development work of me, Bryce Bortree.
 
-<p>I rebuilt my portfolio website using Angular to better show off my SPA abilities. I created a clean but not bland design with simple FontAwesome icons and a clean lefthand menu panel that toggles on small devices.</p>
+## Website
+[brycebortree.com](http://brycebortree.com)
 
-<p>I built the base of my app using my own <a href="https://github.com/brytree/angular-base">angular base</a> recipe.</p>
+## Built With
 
-<p>If you have anything you'd like to share about the website, please feel free to message me here or send me an email.</p>
+* Angular - for a Single Page Application feel that's more seamless for users
+* Bootstrap - for the grid that is mobile friendly
+* HTML - for markup
+* CSS - for styling
+* My [Angular Base](https://github.com/brytree/angular-base) which makes it easy to build an angular app 
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
