@@ -67,6 +67,11 @@ app.config(['$stateProvider',
     url: '/ideas',
     templateUrl: 'views/ideas.html',
   })
+  .state('lucky', {
+    url: '/lucky',
+    templateUrl: 'views/lucky.html',
+  })
+
 
   $locationProvider.html5Mode(true);
 }]);
