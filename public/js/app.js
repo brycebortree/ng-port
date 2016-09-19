@@ -71,6 +71,10 @@ app.config(['$stateProvider',
     url: '/lucky',
     templateUrl: 'views/portfolio/lucky.html',
   })
+  .state('twitbot', {
+    url: '/twitbot',
+    templateUrl: 'views/portfolio/twitbot.html',
+  })
 
 
   $locationProvider.html5Mode(true);
