@@ -194,8 +194,6 @@ ul{
 
 /*home*/
 
-
-
 .logo{
   margin-top: 50px;
   text-align: center;
@@ -310,6 +308,7 @@ a:hover {
 
 #aboutpic {
   max-height: 300px;
+  max-width: 100%;
   padding-bottom: 20px;
   padding-top: 0px;
 }
