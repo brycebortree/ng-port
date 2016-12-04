@@ -10,4 +10,6 @@ app.all('/*', function(req, res, next) {
     res.sendFile('/public/index.html', { root: __dirname });
 });
 
+console.log('listening to the smooth sounds of', (process.env.PORT || 3000));
+
 app.listen(process.env.PORT || 3000);

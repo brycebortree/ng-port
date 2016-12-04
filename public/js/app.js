@@ -75,7 +75,10 @@ app.config(['$stateProvider',
     url: '/twitbot',
     templateUrl: 'views/portfolio/twitbot.html',
   })
-
+  .state('godappears', {
+    url: '/godappears',
+    templateUrl: 'views/portfolio/godappears.html',
+  })
 
   $locationProvider.html5Mode(true);
 }]);
