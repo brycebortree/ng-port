@@ -24,14 +24,14 @@ app.config(['$stateProvider',
     templateUrl: 'views/contact.html',
     controller: 'ContactCtrl'
   })
-  .state('coding', {
-    url: '/coding',
-    templateUrl: 'views/coding.html',
+  .state('projects', {
+    url: '/projects',
+    templateUrl: 'views/projects.html',
     controller: 'PortfolioCtrl'
   })
-  .state('experience', {
-    url: '/experience',
-    templateUrl: 'views/experience.html',
+  .state('resume', {
+    url: '/resume',
+    templateUrl: 'views/resume.html',
     controller: 'ResumeCtrl'
   })
   .state('writing', {
