@@ -222,7 +222,7 @@ ul{
 }
 
 i.fa {
-  color: #979797;
+  color: #004000;
 }
 
 .gitlink {
@@ -231,11 +231,6 @@ i.fa {
 }
 
 .btn-default {
-  color: #004000 !important;
-  background-color: #d2d2d2;
-}
-
-#resumebtn {
   color: #004000 !important;
   background-color: #d2d2d2;
 }
@@ -258,7 +253,6 @@ a.button.round{
 }
  
 a:hover {
-  font-weight: 500;
   text-decoration: none;
 }
 
