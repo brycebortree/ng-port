@@ -32,6 +32,11 @@ p, li {
   line-height: 1.5em;
 }
 
+a, a:hover {
+  color: #004000;
+}
+
+
 /*MENU*/
 
 /* Toggle Styles */
@@ -90,7 +95,6 @@ p, li {
 }
 
 .sidebar-nav li {
-  text-indent: 20px;
   line-height: 75px;
   text-align: center;
   margin-top: 20%;
